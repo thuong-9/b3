@@ -1,0 +1,43 @@
+:root{
+    --text-color: rgb(255, 47, 47);
+}
+h1{
+    color: blueviolet;
+}
+img{
+    font-weight: 600px;
+    height: 100px;
+}
+p{
+    color: var(--text-color);
+}
+.box{
+    width: 70px;
+    height:70px;
+    color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    background-color: aquamarine;
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-style: solid;
+}
+.box2{
+    background-color: rgb(249, 255, 127);
+    border-style: dashed;
+   
+}
+.box3{
+    background-color: rgb(255, 180, 127);
+    border: 2px solid darkkhaki;
+}
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxN3C36jtJ1pEDe_rF94lBzMz3rgA8VwESOA&s');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* cover toàn màn hình không đổi */
+    background-attachment: fixed;
+}
