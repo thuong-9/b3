@@ -24,11 +24,12 @@ p{
     padding-bottom: 10px;
     border-width: 1px;
     border-style: solid;
+    margin-bottom: 20px;
 }
 .box2{
     background-color: rgb(249, 255, 127);
     border-style: dashed;
-   
+   margin-bottom: 20px;
 }
 .box3{
     background-color: rgb(255, 180, 127);
@@ -36,8 +37,9 @@ p{
 }
 body{
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxN3C36jtJ1pEDe_rF94lBzMz3rgA8VwESOA&s');
+    /* ko lặp */
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* cover toàn màn hình không đổi */
+    background-size: cover;
+    /* fixed toàn màn hình không đổi */
     background-attachment: fixed;
 }
