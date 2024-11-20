@@ -30,6 +30,7 @@ p{
     background-color: rgb(249, 255, 127);
     border-style: dashed;
    margin-bottom: 20px;
+   float: left;
 }
 .box3{
     background-color: rgb(255, 180, 127);

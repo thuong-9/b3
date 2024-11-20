@@ -1,0 +1,21 @@
+/* table{
+    font-family: Arial,sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border:1px solid #d12f1a;
+    background-color: beige;
+    text-align: left;
+}*/
+tr:nth-child(even){
+    background-color: #688e8a;
+} 
+table, th, td {
+    border:2px solid ;
+    border-radius: 10px;
+    /* border-collapse: collapse; */
+   }
+td{
+    text-align: center;
+}
